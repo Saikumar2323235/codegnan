@@ -52,6 +52,10 @@ print(type(c))
 
 a=1
 print(int(a))
-'''
+
 data lose = explicity type conversion
 data no loss = implicity type conversion
+'''
+
+any ='Saikumar'
+print(any)
