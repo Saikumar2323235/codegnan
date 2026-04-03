@@ -43,7 +43,7 @@ while num<5:
     num +=1
 
 while --- this a combination for and if statements , if we didnot end the loop in
-proper way it will run upto the memory space in the becomes empty '''
+proper way it will run upto the memory space in the becomes empty
 
 user_in=int(input("enter the limit:"))
 num_1 = 0
