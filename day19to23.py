@@ -99,7 +99,7 @@ modules
     for importing - import module
 example
 import match
-math.add  '''
+math.add 
 import math
 print(math.sqrt(25))
 print(math.pow(50,10))
@@ -107,10 +107,10 @@ print(math.factorial(11))
 print(math.floor(5.3))
 print(math.exp(10))
 print(math.comb(70,10))
+'''
 
 
-
-
+    
 
 
 
