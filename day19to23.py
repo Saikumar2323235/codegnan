@@ -108,7 +108,14 @@ print(math.floor(5.3))
 print(math.exp(10))
 print(math.comb(70,10))
 '''
+import pyttsx3
 
+engine = pyttsx3.init()
+
+def speak_text(text):
+    engine.say(text)
+    engine.runAndWait()
+speak_text("Hello I am your assistance")
 
     
 

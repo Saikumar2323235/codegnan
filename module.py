@@ -8,3 +8,4 @@ def div(a,b):
     return a//b
 def namereverse(name):
     return name[::-1]
+def welcome(name):

@@ -55,7 +55,40 @@ print(int(a))
 
 data lose = explicity type conversion
 data no loss = implicity type conversion
-'''
 
 any ='Saikumar'
-print(any)
+print(any)'''
+
+
+
+
+
+
+name = "Saikumar"
+Age = "23"
+height ="6feet"
+place ="Visakhapatnam"
+
+print(f"My name is : {name} i was {Age}old my height was{height} I lives in {place}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
