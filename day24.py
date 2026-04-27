@@ -89,7 +89,13 @@ print(any.private)'''
 
 
 
-
+class car:
+    def _init_(self,brand,color):
+        self.brand = brand
+        self.color = color
+car_1 = car("Toyato","white")
+car_2 = car("thar","Red")
+print(car_1.brand)
 
 
 

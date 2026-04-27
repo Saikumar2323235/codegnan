@@ -114,7 +114,7 @@ hybrid inheritance
 multiple, multilevel, or hierarichal , all this in a single class ...'''
 
 
-class parent:
+'''class parent:
     def Parent_(self):
         print("I am Parent")
 
@@ -139,9 +139,131 @@ thing.Parent_()
 thing.child_()
 thing._child()
 thing.child()
+'''
+'''
+polymorphism
+ -------------> this allows a object of different classes to be treated as instance
+of the same base class , with methods behaving differently based on the actual object type
+
+eg ....
+-------------
+print(len("Python")
+print(len([1,2,3])
+
+-------------------------------------------------------------------------------------------------------
+method overloading
+--> this defines multiple with the same name but the different parameter
+      (number, type , or order ) in the same class
+      '''
+'''
+class calculator:
+      def add(self, a , b=0 , c=0):
+          return a+b+c
+Cal= calculator()
+print(Cal.add(2))
+print(Cal.add(3,4))
+print(Cal.add(5,7,8))
+'''
+'''--> this is customizes operator like +, - for user-defined classes by implementing special methods
+eg... __add__ , __sub__
+'''
+'''
+class someone:
+    def __init__(self, a, b):
+        self.a = b
+        self.b = b
+    def __add__ (self, other):
+        return someone(self, other):
+    def __str__ (self):
+        return f"({self.a}, {self.b})"
+any = someone(2,3)
+so = someone(5,9)
+print(any + so)'''
+
+'''------------------------------------------------------------
+method overriding
+---->
+this occurs in the child class, redifining a parent class method with the same
+signature for runtime'''
+
+'''class animal:
+    def speak(self):
+        return "sound"
+class dog (animal):
+    def speak(self):
+        return "Woof"
+'''
+'''
+-----------------------------------------------
+Abstraction--> this hides complex implementation details, exposing only essential
+features via abstract class or interface
+'''
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+
+circle = Circle(5)
+print(circle.area())
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
 
 
