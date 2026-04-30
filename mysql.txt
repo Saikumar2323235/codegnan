@@ -1,0 +1,13 @@
+mysql> ^C
+mysql> drop database informational_schema:
+    -> ^C
+mysql>  drop database informational_schema:
+    -> drop database pfs1:
+    -> drop database pfs1;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':
+drop database pfs1:
+drop database pfs1' at line 1
+mysql> drop database pfs1;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> Terminal close -- exit!

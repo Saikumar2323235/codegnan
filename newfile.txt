@@ -1,0 +1,43 @@
+mysql> -- Day-3
+mysql> CREATE TABLE USERS(
+    -> CREATE TABLE USERS()
+    -> CREATE TABLE USERS(
+    -> ID INT,
+    -> USERNAME VARCHAR(50),
+    -> EMAIL VARCHAR
+    -> ^C
+mysql> CREATE TABLE USERS(
+    -> ID INT,
+    -> USERNAME VARCHAR(50)
+    -> USERNAME VARCHAR(50)
+    -> AGE INT,
+    -> PHONE BIGINT
+    -> CITY VARCHAR(20)
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'USERNAME VARCHAR(50)
+AGE INT,
+PHONE BIGINT
+CITY VARCHAR(20)
+)' at line 4
+mysql> CREATE TABLE USERS(
+    -> ID INT,
+    -> USERNAME VARCHAR(50),
+    -> USERNAME VARCHAR(50),
+    -> AGE INT,
+    -> PHONE BIGINT,
+    -> CITY VARCHAR(20)
+    -> );
+ERROR 1046 (3D000): No database selected
+mysql> CREATE DATABASE PFS1;
+ERROR 1007 (HY000): Can't create database 'pfs1'; database exists
+mysql> USE PFS1;
+Database changed
+mysql> CREATE TABLE USERS(
+    -> ID INT,
+    -> USERNAME VARCHAR(50),
+    -> AGE INT,
+    -> PHONE BIGINT,
+    -> CITY VARCHAR(20)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
